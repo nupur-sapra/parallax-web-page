@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header::after {
+    content: " ";
+    background: url('images/images-1.jpg')no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    font-family: 'Source Code Pro', monospace;
+    background: #234454;
+    color: white;
+    font-size: 29px;
+    padding: 13px 39px;
+}
+
+.section-1 {
+    margin: 0px 0px;
+    background-color: #e0e0e0;
+    height: 20rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    padding: 33px 2px;
+}
+
+.para-1 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+    padding: 2px 156px;
+}
+
+.section-2::before {
+    content: " ";
+    background: url('images/image-2.jpg') no-repeat center center /cover;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+
+.section-2 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+.section-3 {
+    height: 38vh;
+    width: 100%;
+    background-color: #131111d9;
+    color: white;
+}
+
+.section-3-heading {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 33px 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.para-2 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+    padding: 2px 156px;
+}
+
+.section-4::before {
+    content: " ";
+    background: url('images/image-4.jpg') no-repeat center center /cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+#sec-4-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: black;
+}
+
+.section-5 {
+    background-color: #141d3ed1;
+    height: 40vh;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.section-5-heading {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 33px 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.para-3 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 18px;
+    padding: 2px 156px;
+}
+
+.section-6::before {
+    content: " ";
+    background: url('images/images-1.jpg')no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+
+.section-6 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-6-heading {
+    font-family: 'Source Code Pro', monospace;
+    background: #234454;
+    color: white;
+    font-size: 29px;
+    padding: 13px 39px;
+}
